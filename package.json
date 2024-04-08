@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node ./deploy/ghpages.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YPINPIN/simple-twitter-frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YPINPIN/simple-twitter-frontend/issues"
+  },
+  "homepage": "https://github.com/YPINPIN/simple-twitter-frontend#readme",
+  "dependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
